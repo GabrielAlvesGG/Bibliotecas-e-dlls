@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace bytebank.Modelos.ADM.Funcionarios
 {
     public abstract class Funcionario
