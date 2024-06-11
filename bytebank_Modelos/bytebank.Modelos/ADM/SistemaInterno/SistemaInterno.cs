@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace bytebank.Modelos.ADM.SistemaInterno
 {
     public class SistemaInterno

@@ -1,4 +1,6 @@
-﻿namespace bytebank.Modelos.Conta
+﻿using System;
+
+namespace bytebank.Modelos.Conta
 {
     public class ContaCorrente:IComparable<ContaCorrente>
     {     
