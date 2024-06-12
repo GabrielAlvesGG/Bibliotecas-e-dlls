@@ -9,11 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\bytebank_Modelos\bytebank_Modelos.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="bytebank_GeradorChavePix">
+      <HintPath>..\..\..\..\..\Área de Trabalho\bytebank_GeradorChavePix\bytebank_GeradorChavePix\bin\Debug\net5.0\bytebank_GeradorChavePix.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 
